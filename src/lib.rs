@@ -12,6 +12,7 @@ pub mod embeddings;
 pub mod files;
 pub mod models;
 pub mod moderations;
+pub mod threads;
 
 static API_KEY: Mutex<String> = Mutex::new(String::new());
 static BASE_URL: Mutex<String> = Mutex::new(String::new());
